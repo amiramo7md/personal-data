@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Personal Data Form</title>
+
+    </head>
+    <body style="background-color: red;">
+        <form >
+            <fieldset >
+                <legend style="background-color: rgb(70, 180, 180);">Personal Data</legend>
+                <fieldset style="background-color: rgb(245, 178, 33);">
+                    <legend style="background-color: rgb(105, 190, 190);">Your Name</legend>
+                    <br>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="fname" >
+                                        first name 
+                                    </label>
+                                </td>
+                                <td>
+                                    : <input type="text" id="fname" name="fname" placeholder="ex ahmed" required>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="secname">
+                                    second name
+                                </label>
+                            </td>
+                            <td>
+                                : <input type="text" id="secname" placeholder="ex bahnasy" required>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="phonenumber"> your phone</label>
+                            </td>
+                            <td>
+                                : <input type="tel" id="phonenumber" name="phonenumber">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email"> Email</label>
+                            </td>
+                            <td>
+                                : <input type="email" id="email" name="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="password"> password </label>
+                            </td>
+                            <td>
+                                : <input type="password" name="password" id="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="re-password">re-password</label>
+                            </td>
+                            <td>
+                                : <input type="password" type="re-password" name="re-password" id="re-password">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>Choose your gender</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label>
+                <br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female</label>
+                <br>
+                <br>
+                <br>
+                <input type="checkbox" id="student" name="status" value="student">
+                <label for="student">Student</label>
+                <br>
+                <input type="checkbox" name="status" id="graduated" value="graduated">
+                <label for="graduated">Graduated</label>
+                <br>
+                <br>
+                <select name="country">
+                    <optgroup label="Africa">
+                        <option value="cairo">egypt</option>
+                        <option value="sudan">sudan</option>
+                    </optgroup>
+                    <optgroup label="America">
+                        <option value="california">california</option>
+                    </optgroup>
+                    <optgroup label="asia">
+                        <option value="india">india</option>
+                        <option value="koria">koria</option>
+                        <option value="china">china</option>
+
+
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                <br>
+                <button type="submit"><img src="submit.png" alt="click to submit" width="100px"></button>
+            </fieldset>
+        </form>
+    </body>
+</html>
